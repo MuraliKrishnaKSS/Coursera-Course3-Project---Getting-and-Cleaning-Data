@@ -23,7 +23,4 @@ Note that "tidy_mean_std_averages.txt" was generated using write.table() with ro
 ===========================
 Required libraries
 ------------------
-library(dplyr)          # needed for group_by funtion
-library(tidyr)          # needed for gather and spread functions
-library(stringr)        # needed for str_replace_all function
-===========================
+dplyr, tidyr, stringr
