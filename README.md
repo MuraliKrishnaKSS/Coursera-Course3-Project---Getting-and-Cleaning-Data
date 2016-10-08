@@ -16,7 +16,7 @@ The R program "run_analysis.R" is written to achieve the following:
 3. Subset the data to retain only mean and standard deviation measures,provide labels to columns and convert activity codes to factors.
 4. Generate averages of variables for each activity and each subject and store as a tidy data in txt file (tidy_mean_std_averages.txt)
 
-Reading the txt files:
+Reading the txt file:
 ------------------
 Note that "tidy_mean_std_averages.txt" was generated using write.table() with row.names = FALSE. It has a header row.
 
