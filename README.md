@@ -11,14 +11,15 @@ Three files are uploaded to GitHub as part of the project.
 
 The R program "run_analysis.R" is written to achieve the following:
 ----------------------------
-1. Download the source file UCI HAR dataset.zip to current working directory and extract datafiles.
-2. Combine source data from multiple files into one dataset.
-3. Subset the data to retain only mean and standard deviation measures,provide labels to columns and convert activity codes to factors.
-4. Generate averages of variables for each activity and each subject and store as a tidy data in txt file (tidy_mean_std_averages.txt)
+1. Download the source file UCI HAR dataset.zip to current working directory and extract files.
+2. Combine source data from multiple files into one comprehensive dataset.
+3. Subset the data to retain only subject, activity, mean and standard deviation measures
+4. Provide descriptive labels to columns and convert activity column into factors to make it easy to read.
+5. Generate averages of variables for each activity and each subject and store as a tidy data in txt file (tidy_mean_std_averages.txt)
 
 Reading the txt file:
 ------------------
-Note that "tidy_mean_std_averages.txt" was generated using write.table() with row.names = FALSE. It has a header row.
+Note that "tidy_mean_std_averages.txt" was generated using write.table() with row.names = FALSE. However, it has a header row.
 
 Required libraries
 ------------------
